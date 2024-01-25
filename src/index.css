@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-y: hidden;
+}
+
+.hint, .layer img:hover {
+  filter: drop-shadow(1.5px 0 0 #cae557) drop-shadow(0 1.5px 0 #cae557) drop-shadow(-1.5px 0 0 #cae557) drop-shadow(0 -1.5px 0 #cae557);
+}
